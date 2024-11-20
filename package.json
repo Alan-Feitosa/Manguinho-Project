@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "conventional-changelog-atom": "^5.0.0",
-    "eslint-config-love": "^89.0.1"
+    "eslint-config-love": "^89.0.1",
+    "ts-node": "^10.9.2"
   }
 }
