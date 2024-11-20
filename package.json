@@ -2,6 +2,7 @@
   "name": "manguinhonodejs",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest --passWithNoTests",
     "test:staged": "jest --passWithNoTests --watchAll",
