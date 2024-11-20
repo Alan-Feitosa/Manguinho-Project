@@ -2,7 +2,6 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import tsParser from "@typescript-eslint/parser";
 import tseslint from "@typescript-eslint/eslint-plugin";
-import drizzlePlugin from "eslint-plugin-drizzle";
 import eslintPrettierConfig from "eslint-plugin-prettier";
 
 export default [
@@ -24,7 +23,6 @@ export default [
       "prettier/prettier": "error",
     },
     plugins: {
-      drizzle: drizzlePlugin,
       "@typescript-eslint": tseslint,
       prettier: eslintPrettierConfig,
     },
